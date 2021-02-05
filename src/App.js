@@ -1,16 +1,13 @@
+// import logo from './logo.svg';
 import './App.css';
-import BindingData from './BindingData/BindingData';
-// import BTLayout from './Components/BTLayout/BTLayout';
-// import HeaderClass from './Components/HeaderClass';
-// import HeaderFunc from './Components/HeaderFunc';
+import PropsDemo from './Prop/PropsDemo';
+import BaitapRenderMap from './react_buoi3/BaitapRenderMap';
 
 function App() {
   return (
     <div className="App">
-      {/* <HeaderClass /> */}
-      {/* <HeaderFunc /> */}
-      {/* <BTLayout /> */}
-      <BindingData />
+      {/* <BaitapRenderMap /> */}
+      <PropsDemo />
     </div>
   );
 }
